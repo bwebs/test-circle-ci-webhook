@@ -12,7 +12,7 @@ const ExampleComponent = () => {
     const el = getNotificationElement();
     return (<CourierProvider
             userId='test'
-            clientKey={"MTkyZTBkYzQtMDc4ZC00NDZlLWI2ZDYtYmJiYmEzYjg4NjZi"}
+            clientKey={window.courier_client_key}
     >
         <Toast
             defaultIcon={TEST}

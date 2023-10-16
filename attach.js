@@ -1,2 +1,2 @@
 // (() => { var body = document.body; var script = document.createElement('script'); script.src = "http://localhost:8080/index.js"; body.appendChild(script); })()
-(() => { var body = document.body; var script = document.createElement('script'); script.src = "https://bwebs.github.io/test-circle-ci-webhook/react-attach-courier/dist/index.js"; body.appendChild(script); })()
+(() => { window.courier_client_key = ''; var body = document.body; var script = document.createElement('script'); script.src = "https://bwebs.github.io/test-circle-ci-webhook/react-attach-courier/dist/index.js"; body.appendChild(script); })()
