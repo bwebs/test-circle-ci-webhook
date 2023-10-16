@@ -10,7 +10,6 @@ const TEST = () => <>hi</>
 const ExampleComponent = () => {
     // const test = useCourier()
     const el = getNotificationElement();
-    console.log(el)
     return (<CourierProvider
             userId='test'
             clientKey={"MTkyZTBkYzQtMDc4ZC00NDZlLWI2ZDYtYmJiYmEzYjg4NjZi"}
